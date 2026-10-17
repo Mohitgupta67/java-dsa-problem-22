@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LL {
 
-    // Node class
+    
     static class Node {
         int data;
         Node next;
@@ -15,7 +15,7 @@ public class LL {
 
     Node head = null;
 
-    // Add a node at the end
+  
     public void addLast(int data) {
         Node newNode = new Node(data);
 
@@ -33,7 +33,7 @@ public class LL {
         current.next = newNode;
     }
 
-    // Remove duplicates
+   
     public void removeDuplicates() {
         Node current = head;
 
@@ -47,7 +47,7 @@ public class LL {
         }
     }
 
-    // Print the linked list
+    
     public void printList() {
         Node current = head;
 
